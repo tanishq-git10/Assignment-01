@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuteDude.com</title>
+</head>
+
+<body id="top">
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>🌮 Welcome to <mark>TuteDude</mark> 🌮</h1>
+    <p>
+        <em>A project designed by <strong>TuteDude</strong> to learn HTML</em>
+    </p>
+    <p>Best TuteDude in town since <time datetime="2021">2021</time></p>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#trivia">Trivia</a></li>
+            <li><a href="#extras">Extras</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <figure>
+        <img src="https://images.shiksha.com/mediadata/images/articles/1739779901phpxOdKq8_480x360.jpeg"
+        alt="TuteDude Meal" width="400">
+        <figcaption>TuteDude and a Drink</figcaption>
+    </figure>
+</header>
+
+<hr>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about">
+    <h2>About TuteDude</h2>
+
+    <article>
+        <p>
+            <strong>TuteDude</strong> is an innovative learning platform
+            launched in <time datetime="2020">2020</time>.
+            It focuses on 
+            <abbr title="Data Structures and Algorithms">DSA</abbr>,
+            Web Development, and Artificial Intelligence.
+        </p>
+
+        <p>
+            The platform provides structured learning paths,
+            real-world projects, and mentorship.
+        </p>
+    </article>
+
+    <blockquote>
+        "TuteDude transformed the way I learn coding."
+        <cite>– Tanishq</cite>
+    </blockquote>
+</section>
+
+<hr>
+
+<!-- ===== MENU SECTION ===== -->
+<section id="menu">
+<h2>TuteDude Complete Taco Menu</h2>
+
+                <table border="10">
+
+                <!-- Header -->
+                <tr>
+                <th rowspan="2">Category</th>
+                <th rowspan="2">Type</th>
+                <th colspan="2">Small Portion</th>
+                <th colspan="2">Large Portion</th>
+                </tr>
+                <tr>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Price</th>
+                </tr>
+
+                <!-- TuteDude Section -->
+                <tr>
+                <td rowspan="3">TuteDude</td>
+                <td>Crunchy (Beef)</td>
+                <td>1</td>
+                <td>$1.50</td>
+                <td>3</td>
+                <td>$3.25</td>
+                </tr>
+                <tr>
+                <td>Crunchy (Chicken)</td>
+                <td>1</td>
+                <td>$1.75</td>
+                <td>3</td>
+                <td>$3.50</td>
+                </tr>
+                <tr>
+                <td>
+                Crunchy (Veggie)<br><br>
+                <b>Nutrition Info</b>
+                <table class="nested-table">
+                <tr>
+                <th>Nutrient</th>
+                <th>Value</th>
+                </tr>
+                <tr>
+                <td>Calories</td>
+                <td>150 kcal</td>
+                </tr>
+                <tr>
+                <td>Protein</td>
+                <td>5 g</td>
+                </tr>
+                <tr>
+                <td>Fiber</td>
+                <td>4 g</td>
+                </tr>
+                </table>
+        </td>
+        <td>1</td>
+        <td>$1.25</td>
+        <td>3</td>
+        <td>$3.00</td>
+    </tr>
+
+    <!-- Soft TuteDude Section -->
+    <tr>
+        <td rowspan="2">Soft TuteDude</td>
+        <td>Soft (Beef)</td>
+        <td>2</td>
+        <td>$3.50</td>
+        <td>4</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td>Soft (Veggie)</td>
+        <td>2</td>
+        <td>$3.00</td>
+        <td>4</td>
+        <td>$5.50</td>
+    </tr>
+
+    <!-- Combos Section -->
+    <tr>
+        <td rowspan="2">Combos</td>
+        <td>2 Crunchy + Drink</td>
+        <td colspan="2">$4.50</td>
+        <td colspan="2" rowspan="2">N/A</td>
+    </tr>
+    <tr>
+        <td>
+            2 Soft + Drink<br><br>
+            <b>Combo Meals Nutrition Facts</b>
+            <table class="nested-table">
+                <tr>
+                    <th>Item</th>
+                    <th>Calories</th>
+                    <th>Sugar</th>
+                </tr>
+                <tr>
+                    <td>Soft Taco</td>
+                    <td>200 kcal</td>
+                    <td>2 g</td>
+                </tr>
+                <tr>
+                    <td>Drink</td>
+                    <td>120 kcal</td>
+                    <td>25 g</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>320 kcal</b></td>
+                    <td><b>27 g</b></td>
+                </tr>
+            </table>
+        </td>
+        <td colspan="2">$5.00</td>
+    </tr>
+
+    <!-- Extras Section -->
+    <tr>
+        <td rowspan="2">Extras</td>
+        <td>Chips & Salsa</td>
+        <td colspan="4">$2.00</td>
+    </tr>
+    <tr>
+        <td>Guacamole</td>
+        <td colspan="4">$1.50</td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+        <td colspan="6"><b>Average Meal Price Range: $2.00 – $6.50</b></td>
+    </tr>
+
+</table>
+    <br>
+    <a href="#top">↑ Back to Top</a>
+</section>
+
+<hr>
+
+<!-- ===== TRIVIA SECTION ===== -->
+<section id="trivia">
+    <h2>Taco Trivia</h2>
+
+    <aside>
+        <details>
+            <summary>When did tacos become popular in the U.S.?</summary>
+            <p>
+                Tacos became popular in the early 1900s,
+                especially in Texas and California.
+            </p>
+        </details>
+    </aside>
+</section>
+
+<hr>
+
+<!-- ===== EXTRAS SECTION ===== -->
+<section id="extras">
+    <h2>Media Fun</h2>
+
+    <h3>Listen to Taco Music</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>Watch Taco Video</h3>
+    <video width="400" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</section>
+
+<hr>
+
+<!-- ===== FEEDBACK SECTION ===== -->
+<section id="feedback">
+    <h2>Give Us Your Feedback</h2>
+
+    <form>
+
+        <fieldset>
+            <legend><strong>Your Info</strong></legend>
+
+            <label>Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>Favorite Taco:</label><br>
+            <select>
+                <option>Crunchy</option>
+                <option>Soft</option>
+                <option>Veggie</option>
+                <option>Beef</option>
+                <option>Chicken</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>Your Message</strong></legend>
+            <textarea rows="6" cols="50"></textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+</section>
+
+</main>
+
+<hr>
+
+<!-- ================= FOOTER ================= -->
+<footer id="contact">
+
+    <address>
+        <strong>TuteDude</strong><br>
+        123 Taco Street<br>
+        Taco Town, TX 75000<br>
+        Email:
+        <a href="mailto:info@tutedude.com">
+            info@tutedude.com
+        </a>
+    </address>
+
+    <p>
+        &copy; <time datetime="2026">2026</time>
+        TuteDude. All rights reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
